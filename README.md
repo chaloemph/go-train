@@ -1,3 +1,3 @@
-# go-train
-go-trainning
-basic go
+# GO-training
+GO-trainning
+basic GO syntax
