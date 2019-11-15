@@ -25,5 +25,8 @@ func main() {
 	p("Repeat : ", s.Repeat(job, 5))
 	p("Replace : ", s.Replace(job, "e", "o", -1)) //replace all when match
 	p("Replace : ", s.Replace(job, "e", "o", 1))  //replace 1 when match
-	p("Split : ", s.Split(job, "e"))              //replace 1 when match
+	p("Split : ", s.Split(job, "e"))
+	p("ToLower : ", s.ToLower(job))
+	p("ToUpper : ", s.ToUpper(job))
+	p("Len : ", len(job))
 }
