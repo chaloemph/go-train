@@ -6,6 +6,7 @@ func main() {
 	country := make(map[string]string)
 	country["th"] = "thailand"
 	country["jp"] = "japan"
+
 	fmt.Println(country["th"])
 	fmt.Println(country)
 
